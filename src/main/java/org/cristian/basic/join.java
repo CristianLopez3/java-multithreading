@@ -7,7 +7,7 @@ import java.util.List;
 
 public class join {
     public static void main(String[] args) throws InterruptedException {
-        List<Long> inputNumbers = Arrays.asList(1L, 333L, 3L, 44L, 555L, 23354L, 3444L);
+        List<Long> inputNumbers = Arrays.asList(1L, 33L, 3L, 44L, 555L, 23354L, 3444L);
         List<FactorialThread> threads = new ArrayList<>();
 
         for (long inputNumber : inputNumbers) {
