@@ -37,7 +37,7 @@ public class AtomicExample {
 ```
 In this example, AtomicInteger ensures that the incrementAndGet() method is executed atomically, making it safe for concurrent access by multiple threads.
 
-##Advantages:
+## Advantages:
 
 * Simplicity: They provide a simple and easy-to-use way to ensure thread safety.
     
@@ -53,6 +53,6 @@ In this example, AtomicInteger ensures that the incrementAndGet() method is exec
 
 * Thread Safety: Atomic operations are crucial for writing reliable and thread-safe concurrent programs.
     
-*Performance: They help improve performance by reducing contention and overhead associated with synchronization.
+* Performance: They help improve performance by reducing contention and overhead associated with synchronization.
 
 In essence, atomic operations in Java act like a lock 🔒, ensuring that only one thread can access a shared resource at

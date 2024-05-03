@@ -1,5 +1,14 @@
 # Asynchronous Programming in Java :hourglass_flowing_sand:
 
+## CONCEPTS
+
+[Atomic Operations](concepts/ATOMIC.md)
+[Join method](concepts/JOIN.md)
+[Performance and latency](concepts/PERFORMANCE.md)
+[Volatile keyword](concepts/VOLATILE.md)
+[Interrupt threads](concepts/TERMINATION_THREAD.md)
+[Synchronized keyword](concepts/SYNCHRONIZED.md)
+
 Asynchronous programming, or **async** for short, is a programming paradigm where operations are executed independently of the main program flow. This means that your program doesn't have to wait for these operations to complete before moving on to the next operation.
 
 ## Importance :dart:
@@ -13,10 +22,12 @@ In Java, you can implement async programming using **Threads**. A Thread is a se
 Here's a simple example of creating a new thread in Java:
 
 ```java
-Thread thread = new Thread(() -> {
-    // Code to be executed in new thread
-});
-thread.start();
+public static void main(String[] args) {
+    Thread thread = new Thread(() -> {
+        // Code to be executed in new thread
+    });
+    thread.start();
+}
 ```
 
 ## Advantages :+1:
