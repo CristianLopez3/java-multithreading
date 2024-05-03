@@ -2,17 +2,13 @@
 
 ## CONCEPTS
 
-[Atomic Operations](concepts/ATOMIC.md)
-
-[Join method](concepts/JOIN.md)
-
-[Performance and latency](concepts/PERFORMANCE.md)
-
-[Volatile keyword](concepts/VOLATILE.md)
-
-[Interrupt threads](concepts/TERMINATION_THREAD.md)
-
-[Synchronized keyword](concepts/SYNCHRONIZED.md)
+1. [Atomic Operations](concepts/ATOMIC.md)
+2. [Join method](concepts/JOIN.md)
+3. [Performance and latency](concepts/PERFORMANCE.md)
+4. [Volatile keyword](concepts/VOLATILE.md)
+5. [Interrupt threads](concepts/TERMINATION_THREAD.md)
+6. [Synchronized keyword](concepts/SYNCHRONIZED.md)
+7. [Deadlocks](concepts/DEADLOCKS.md)
 
 Asynchronous programming, or **async** for short, is a programming paradigm where operations are executed independently of the main program flow. This means that your program doesn't have to wait for these operations to complete before moving on to the next operation.
 
