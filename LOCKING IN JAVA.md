@@ -1,3 +1,0 @@
-# LOCKING IN JAVA
-
-
