@@ -1,4 +1,4 @@
-# Semaphore :semaphore:
+# Semaphore 🛑
 A semaphore is like a traffic light 🚦 that controls access to a shared resource, like a single-lane bridge. It allows a fixed number of threads to access the resource simultaneously. Here's the breakdown:
 
 - **What it does:** Limits the number of threads that can access a resource concurrently.
