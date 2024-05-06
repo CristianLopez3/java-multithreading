@@ -11,6 +11,7 @@
 7. [Deadlocks](concepts/DEADLOCKS.md)
 8. [Locking](concepts/LOCKING.md)
 9. [Semaphore](concepts/SEMAPHORE.md)
+10. [Inter Thread Communication](concepts/INTER_THREAD_COMMUNICATION.md
 
 Asynchronous programming, or **async** for short, is a programming paradigm where operations are executed independently of the main program flow. This means that your program doesn't have to wait for these operations to complete before moving on to the next operation.
 
