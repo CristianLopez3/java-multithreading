@@ -1,17 +1,27 @@
 # Asynchronous Programming in Java :hourglass_flowing_sand:
 
+## Tasks
+
+[] Blocking IO
+[] Non-blocking IO
+[] Virtual Thread
+
+
 ## CONCEPTS
 
 1. [Atomic Operations](concepts/ATOMIC.md)
 2. [Join method](concepts/JOIN.md)
-3. [Performance and latency](concepts/PERFORMANCE.md)
+3. [**Performance and latency**](concepts/PERFORMANCE.md)
 4. [Volatile keyword](concepts/VOLATILE.md)
 5. [Interrupt threads](concepts/TERMINATION_THREAD.md)
 6. [Synchronized keyword](concepts/SYNCHRONIZED.md)
 7. [Deadlocks](concepts/DEADLOCKS.md)
 8. [Locking](concepts/LOCKING.md)
-9. [Semaphore](concepts/SEMAPHORE.md)
+9. [**Semaphore**](concepts/SEMAPHORE.md)
 10. [Inter Thread Communication](concepts/INTER_THREAD_COMMUNICATION.md)
+11. [Blocking IO](concepts/BLOCKING_IO.md)
+12. [Non-blocking IO](concepts/NON_BLOCKING_IO.md)
+13. [**Virtual ThreadS**](concepts/VIRTUAL_THREADS.md)
 
 Asynchronous programming, or **async** for short, is a programming paradigm where operations are executed independently of the main program flow. This means that your program doesn't have to wait for these operations to complete before moving on to the next operation.
 

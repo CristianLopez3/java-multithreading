@@ -33,7 +33,6 @@ Inter thread communication should be implemented when:
 - Increased complexity and potential for deadlock if not implemented carefully.
 
 - May introduce performance overhead due to synchronization mechanisms.
-
 - Requires careful handling to avoid race conditions and thread safety issues.
 
 ### Analogy 🎭
